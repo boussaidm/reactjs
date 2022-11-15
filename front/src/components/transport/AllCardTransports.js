@@ -5,7 +5,10 @@ import Card from "../Card";
 function AllCardTransports() {
 
     return(<div className="componentBg">
-        <img src="\img\logos\logoTransport.png" alt='logo Transport' id="logo"/>
+        <div className="d-flex mt-2">
+        <img src="\img\logos\logoTransport.png" alt='logo Transport' />
+
+        </div>
         {data.transports.map((e) => {
 
        

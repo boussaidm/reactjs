@@ -20,6 +20,7 @@ function NavBar() {
               className="d-inline-block align-top logo"
             />
           </Navbar.Brand> 
+
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

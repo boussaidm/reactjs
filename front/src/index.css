@@ -28,7 +28,15 @@ body {
   width: 100%;
 }
 
+.linkGo{
+  position: absolute;
+  left: 85px;
+  bottom: 45px;
+}
 
+.description{
+  width: 263px;
+}
 
 /* Navbar */
 
@@ -42,10 +50,6 @@ body {
   transition: all 1s ease; 
 }
 
-#logo{
-  position: absolute;
-  left:0;
-}
 
 
 
@@ -54,6 +58,12 @@ body {
   width: 312px;
 }
 
+/* Presentation */
+.pres {
+   background-color: #00004d;
+   width: 100%;
+   color: #FFFFFF;
+}
 /* Footer */
 .footer {
   display: flex;

@@ -4,6 +4,11 @@ import data from "../../data.json";
 
 function AllCardLodgings() {
     return(<div className="componentBg">
+        <div className="d-flex mt-2">
+            <img src="\img\logos\logoHotel.png" alt='logo Restaurant'/>
+
+        </div>
+
     {data.hotels.map((e) => {
 
         return(

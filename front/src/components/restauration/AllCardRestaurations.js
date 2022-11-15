@@ -4,8 +4,11 @@ import data from "../../data.json";
 
 function AllCardRestaurations() {
 
-    return(<div className="componentBg">   
-           <img src="\img\logos\logoResto.png" alt='logo logo Restauration' id="logo"/>
+    return(<div className="componentBg"> 
+        <div className="d-flex mt-2">
+        <img src="\img\logos\logoResto.png" alt='logo logo Restauration'/>
+
+        </div>  
 
         {data.restaurants.map((e) => {
             return(
